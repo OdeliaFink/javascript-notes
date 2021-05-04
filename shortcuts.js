@@ -25,3 +25,16 @@ animals.slice(1); //"horse", "cat", "dog", "monkey"
 animals.slice(1, 2); //"horse"
 animals.slice(-1); //"monkey"
 animals.slice(3, 4); //"dog"
+
+//SPLICE: .splice(startId, deleteCount, itemsToInsert--using string)
+
+animals.splice(1); //[ 'horse', 'cat', 'dog', 'monkey' ]
+
+//SORTING: permanent sort but not numeric. default sort is based off of string chatacter codes
+
+let people = ['odelia', 'galit', 'bob', 'nick', 'sarah', 'karma', 'joe'];
+console.log(people.sort());
+console.log(people);
+
+let numbers = [11, 101, 93, 44, 21, 53];
+numbers.sort(); //sorts by utf code not actual value
