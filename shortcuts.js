@@ -13,8 +13,15 @@ colors[colors.length - 1];
 let array1 = ['apples', 'tomatoes', 'potatoes'];
 let array2 = ['carrot', 'ginger'];
 
-console.log(array2.concat(array1));
+array2.concat(array1); //[ 'carrot', 'ginger', 'apples', 'tomatoes', 'potatoes' ]
 
 //INCLUDES:
-let colors = ['blue', 'purple', 'green', 'red', 'violet'];
-colors.includes('fish'); //would return false
+//let colors = ['blue', 'purple', 'green', 'red', 'violet'];
+//colors.includes('fish'); //would return false
+
+//SLICE:
+let animals = ['bear', 'horse', 'cat', 'dog', 'monkey'];
+animals.slice(1); //"horse", "cat", "dog", "monkey"
+animals.slice(1, 2); //"horse"
+animals.slice(-1); //"monkey"
+animals.slice(3, 4); //"dog"
