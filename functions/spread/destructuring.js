@@ -30,3 +30,25 @@ const runner = {
 const { country: nation, title: honorific } = runner;
 
 const { first, last, ...other } = runner;
+
+const results = [
+  {
+    first: 'Eliud',
+    last: 'Kipchoge',
+    country: 'Kenya',
+  },
+  {
+    first: 'Feyisa',
+    last: 'Lilesa',
+    country: 'Ethiopia',
+  },
+  {
+    first: 'Galen',
+    last: 'Rupp',
+    country: 'United States',
+  },
+];
+// NESTED DESTRUCTURING
+const [{ first: goldWinner }, { country }] = results;
+goldWinner; //"Eliud"
+country; //"Ethiopia"
