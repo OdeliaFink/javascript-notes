@@ -1,0 +1,32 @@
+h1 {
+  color: purple;
+  font-size: 60px;
+}
+
+#bear-photo {
+  width: 250px;
+}
+
+.special {
+  color: teal;
+  font-size: 30px;
+  border: 1px solid teal;
+}
+
+input[type='password'] {
+  height: 50px;
+  width: 100px;
+}
+
+/* getElementById: Pass in the id as a string ie:('img'). When you type it into the console it appears as html but its actually an OBJECT because its part of the DOM.
+
+Do console.dir(document) and can see all the properties within the object.
+
+getElementsByTagName: When we do this it will target all the different tag names so if we target 'p' it'll list out all the <p> tags
+
+
+
+
+
+
+*/
