@@ -24,8 +24,38 @@ Do console.dir(document) and can see all the properties within the object.
 
 getElementsByTagName: When we do this it will target all the different tag names so if we target 'p' it'll list out all the <p> tags
 
+HTML Collection: Array-like objects
+document.getElementsBYTagName('text')
+if you type inputs[1] it'll pull up the second element in the list 
+despite array tendecies, can't do classic methods like push or pop etc. 
+
+to access you do document.getElementsByTagName('main')[1]
+
+// ****************
+// querySelector
+// ****************
+//To find the first li on the page:
+document.querySelector('li');
+
+//To find the first element with class of special:
+document.querySelector('.special');
+
+//To find the first element with id of main (there should only be one...)
+document.querySelector('#main');
+
+// To find the first li with the class of special, nested inside of a ul, nested inside a section:
+document.querySelector('section ul li.special');
 
 
+// ****************
+// querySelectorAll
+// ****************
+
+// To find ALL li's on the page:
+document.querySelectorAll('li');
+
+// To find ALL elements with the class of special on the page:
+document.querySelectorAll('.special');
 
 
 
