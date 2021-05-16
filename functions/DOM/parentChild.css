@@ -1,0 +1,16 @@
+/* To access parent of something you can store the selected query as:
+
+const li = document.querySelector('li')
+then type in console.dir(li) to access the object and scroll down to Parent Element which should show ul as this is the parent element. 
+
+** helps work backwards
+
+ACCESSING CHILDREN:
+
+xs
+
+
+
+
+
+*/
