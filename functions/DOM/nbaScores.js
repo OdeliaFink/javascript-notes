@@ -85,8 +85,4 @@ const warriorsGames = [
   },
 ];
 
-const ulParent = document.createElement('ul')
-
-for (let game of warriorsGames) {
-  const {homeTeam, awayTeam } = 
-}
+const ulParent = document.createElement('ul');
