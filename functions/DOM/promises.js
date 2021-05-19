@@ -79,3 +79,9 @@ moveX(
     alert('CANNOT MOVE FURTHER!');
   }
 );
+
+const btn = document.querySelector('button');
+
+setTimeout(() => {
+  btn.style.transform = `translateX(100)`;
+});
